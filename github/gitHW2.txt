@@ -1,0 +1,9 @@
+#This is for loop calculation
+echo "For-Loop start"
+echo "Assignment to print out numbers from 100 to 1"
+for (( b=100;b>=1;b=b-1 ))
+do
+echo $b
+done
+echo "For-Loop end"
+

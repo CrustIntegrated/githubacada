@@ -1,0 +1,25 @@
+#managing multiple conditions
+echo "Assigment on switch case script for value from 1 to 5"
+case $1 in
+1)
+echo "First valus is 1"
+echo "Case started" ;;
+2)
+echo "Second valus is 2"
+echo "Case closed" ;;
+3)
+echo "Third valus is 3"
+echo "Case closed" ;;
+4)
+echo "Next valus is 4"
+echo "Case closed" ;;
+5)
+echo "Last valus is 5"
+echo "Case closed" ;;
+*)
+echo "You passed the wrong option"
+echo "The options are 1 to 5" ;;
+esac
+echo "End of Switch Case demo"
+
+
