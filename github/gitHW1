@@ -1,0 +1,23 @@
+#Write a statement that calculates the prices of fruits
+echo "Available fruits are Mango, Banana and Apple"
+echo 'Please enter the unit price of mango and press enter'
+read price1
+echo 'Please enter the unit price of Apple  and press enter'
+read price2
+if [ $price1 == $price2 ]
+then
+echo "The fruits sell for same price"
+else
+echo "Mango and Apple sells for different prices"
+fi
+echo Total cost of fruist :`expr $price1 + $price2`
+echo "confirm Yes/No?"
+read confirm
+if [ $confirm == Yes ]
+then
+echo "proceed to make payment"
+else
+echo "transaction cancelled, bye"
+fi
+
+
