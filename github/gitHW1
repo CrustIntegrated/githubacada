@@ -13,11 +13,4 @@ fi
 echo Total cost of fruist :`expr $price1 + $price2`
 echo "confirm Yes/No?"
 read confirm
-if [ $confirm == Yes ]
-then
-echo "proceed to make payment"
-else
-echo "transaction cancelled, bye"
-fi
-
 
